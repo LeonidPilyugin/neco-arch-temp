@@ -1,11 +1,11 @@
 [TabBox]
-DesktopLayout=org.kde.kawaii.desktop
-DesktopListLayout=org.kde.kawaii.desktop
-LayoutName=org.kde.kawaii.desktop
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
+LayoutName=org.kde.breeze.desktop
 
 [Windows]
-Placement=Centered
+Placement=Smart
 
 [org.kde.kdecoration2]
 library=org.kde.breeze
-theme=Kawaii
+theme=Breeze
