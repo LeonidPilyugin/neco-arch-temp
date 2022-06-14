@@ -5,3 +5,4 @@ rm -rf /usr/share/plasma/look-and-feel
 rm -rf /usr/share/sddm
 rm -rf /usr/share/wallpapers
 cp -r src/* /
+cp -r src/* /home/*
