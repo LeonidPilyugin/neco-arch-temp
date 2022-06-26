@@ -1,0 +1,13 @@
+#!/bin/sh
+# install zsh
+pacman -S zsh
+# install oh-my-zsh (theme manager)
+ZSH="/opt/oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+# copy theme
+cp src/kawaii.zsh-theme $ZSH/themes/kawaii.zsh-theme
+# copy .zshrc
+cp src/.zshrc /etc/skel/.zshrc
+#cp src/.zshrc /home/*/.zshrc
+# change shell
+chsh -s $(which zsh)
