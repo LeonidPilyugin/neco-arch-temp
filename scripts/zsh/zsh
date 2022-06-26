@@ -2,8 +2,8 @@
 # install zsh
 pacman -S zsh
 # install oh-my-zsh (theme manager)
-wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-ZSH="/opt/oh-my-zsh" sh install.sh
+ZSH=/opt/oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # install autosuggestions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
 # install syntax highlighting plugin
@@ -14,4 +14,4 @@ cp src/kawaii.zsh-theme $ZSH/themes/kawaii.zsh-theme
 cp src/.zshrc /etc/skel/.zshrc
 #cp src/.zshrc /home/*/.zshrc
 # change shell
-chsh -s $(which zsh)
+#chsh -s $(which zsh)
