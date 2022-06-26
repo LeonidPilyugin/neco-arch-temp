@@ -2,8 +2,8 @@
 # install zsh
 pacman -S zsh
 # install oh-my-zsh (theme manager)
-ZSH="/opt/oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+ZSH="/opt/oh-my-zsh" sh install.sh
 # install autosuggestions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
 # install syntax highlighting plugin
