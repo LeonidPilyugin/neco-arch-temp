@@ -3,5 +3,6 @@
 pacman -S zsh --noconfirm
 # install oh-my-zsh (theme manager)
 export ZSH=/opt/oh-my-zsh
+export RUN_ZSH="no"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo fuck niggers
