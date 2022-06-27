@@ -1,6 +1,6 @@
 #!/bin/sh
 # install zsh
-pacman -S zsh
+pacman -S zsh --noconfirm
 # install oh-my-zsh (theme manager)
 export ZSH=/opt/oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
