@@ -6,7 +6,7 @@ TabColor=27,30,32,0
 CursorShape=1
 
 [General]
-Command=/bin/zsh
+Command=/bin/sh
 Name=Kawaii
 Parent=FALLBACK/
 TerminalColumns=130

@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -r src/. /etc/skel
+cp -r src /etc/skel
