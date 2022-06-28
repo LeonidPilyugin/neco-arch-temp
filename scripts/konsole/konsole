@@ -1,3 +1,4 @@
 #!/bin/bash
-cp -r src /etc/skel
+cp -r src/* /etc/skel
+rm -rf /usr/share/konsole/*.profile
 cp -r kons/* /usr/share/konsole
