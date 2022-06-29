@@ -7,7 +7,7 @@ cd ../wallpaper
 ./wpp.sh
 cd ../zsh
 ./zsh.sh
-cd ../konsole.sh
-./konsole
+cd ../konsole
+./konsole.sh
 cd ../legacy
 ./kde.sh
